@@ -1,5 +1,5 @@
-var menu = document.getElementById("menu");
-var nav = document.getElementById("links");
-menu.addEventListener("click", function() {
-	nav.classList.toggle("visible");
+let menuButton = document.querySelector('#menu');
+let links = document.querySelector('#links');
+menuButton.addEventListener('click', () => {
+	links.classList.toggle('display');
 });
